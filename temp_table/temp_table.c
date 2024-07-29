@@ -6,15 +6,10 @@
 
 int main()
 {
-    int fahr, celsius;
-
-    fahr = LOWER;
-
-    while(fahr <= UPPER)
+    for(int fahr = LOWER; fahr <= UPPER; fahr += STEP)
     {
-        celsius = 5 * (fahr - 32) / 9;
+        int celsius = 5 * (fahr - 32) / 9;
         printf("%d\t%d\n", fahr, celsius);
-        fahr = fahr + STEP;
     }
 
     return 0;
