@@ -40,3 +40,4 @@ test/debuginfo-tests
 *
 !/**/
 !*.*
+.DS_Store
